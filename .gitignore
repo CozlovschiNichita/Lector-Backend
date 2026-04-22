@@ -1,0 +1,10 @@
+# Игнорируем зависимости SPM, кэш и конфиденциальные данные
+.build/
+.swiftpm/
+Packages/
+*.swp
+.env
+.env.*
+!.env.example
+.DS_Store
+Public/temp/
